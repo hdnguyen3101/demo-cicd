@@ -2,7 +2,7 @@ pipeline {
     agent { label 'ubuntu' }
     tools {
         nodejs 'nodejs-22.17.1'
-        docker 'docker'
+        dockerTool 'docker'
     }
     stages {
         stage('build') {
