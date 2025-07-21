@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'ubuntu' }
+    agent any
     tools {
         nodejs 'nodejs-22.17.1'
         dockerTool 'docker'
