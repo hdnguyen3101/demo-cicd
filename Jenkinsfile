@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { image 'node:22.17.1-alpine3.22' } }
+    agent { label 'ubuntu' }
     stages {
         stage('build') {
             steps {
